@@ -12,6 +12,8 @@ const sumarPuntos = ()=>{
 		let segSobra = "";
 		let segundoSingular = "";
 
+		document.getElementById("robot").textContent = "ˣ_ˣ";  //ˣᴖˣ
+
 		if ( segundos === 1 ) {
 			segSobra = "sobró";
 			segundoSingular = "segundo";
